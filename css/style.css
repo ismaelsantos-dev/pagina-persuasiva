@@ -7,6 +7,10 @@ body{
     font-size: 1.2rem;
     overflow-x: hidden;
     width: 100vw;
+    overflow: hidden;
+}
+html,body{
+    width: 100%;
 }
 .cabeçalho{
     display: flex;
