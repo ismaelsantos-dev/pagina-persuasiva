@@ -95,18 +95,30 @@ body,html{
 .instrução{
     flex-wrap: wrap;
     flex: 1 1 280px;
-    min-width: 34%;
+    min-width: 300px;
     margin: 5px;
-    margin-left: 4%;
-    background-color: rgb(211, 16, 195);
+    margin-left: 2%;
+    min-width: 34vw;
+    margin-bottom: 120px;
+    
+  
    
 }
 
 .titulo{
 font-size: 2em;
 margin: 0px 10px 70px 10px ;
-text-align: center;
 width: 100%;
+color: wheat;
+flex-wrap: wrap;
+min-width: 100vw;
+flex: 1 1 200px;
+display: flex;
+justify-content: center;
+margin-bottom: 30%;
+
+
+
 
 }
 .descrição{
@@ -116,18 +128,19 @@ width: 100%;
     color: rgb(226, 221, 221);
     font-size: 1.2em;
     padding-left: 7%;
+    margin-top: -18%;
  
 
 }
 .chamada-atenção{
 flex-wrap: wrap;
-flex: 2 1 380px;
+flex: 2 1 200px;
 display: flex;
 align-self: center;
 margin-right: 36%;
-margin-top:5%;
 width: 100%;
-background-color: aqua;
+
+
 
 
 
@@ -135,7 +148,6 @@ background-color: aqua;
 }
 .imagem{
     margin-left: 50%;
-    margin-top: -22%;
     max-width: 100%;
     border: 2px solid rgb(226, 78, 10);
     border-radius: 16px; 
@@ -156,7 +168,7 @@ background-color: aqua;
 text-align: center;
 margin-right: 70%;
 margin-top: 1%;
-margin-bottom: 150px;
+
 }
 .usuario-item1{
     width: 40%;
@@ -308,6 +320,40 @@ margin-bottom: 150px;
     margin-top: 2%;
     padding: 20px;
 
+}
+@media (max-width:781px) {
+    .chamada-atenção{
+        margin-top: -10%;
+        padding-bottom:6%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: 200px;
+        
+    }
+    .apresentação{
+        margin: auto;
+        min-width: 250px;
+    }
+    .subtitulo{
+        margin-left: 21.5%;
+        flex-wrap: wrap;
+        min-width: 200px;
+        
+    }
+    .usuario{
+       margin-left: 33%;
+       margin-top: 1%;
+     
+
+    }
+    .usuario-item1{
+        width: 200px;
+        padding: 8px;
+          min-width: 200px;
+        
+    }
+    
 }
 
 
