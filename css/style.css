@@ -322,6 +322,7 @@ margin-top: 1%;
 
 }
 @media (max-width:781px) {
+    
     .chamada-atenção{
         margin-top: -10%;
         padding-bottom:6%;
@@ -344,6 +345,8 @@ margin-top: 1%;
     .usuario{
        margin-left: 33%;
        margin-top: 1%;
+       flex-wrap: wrap;
+       flex: 1 1 316px;
      
 
     }
@@ -351,6 +354,29 @@ margin-top: 1%;
         width: 200px;
         padding: 8px;
           min-width: 200px;
+        
+    }
+    
+}
+@media (max-width:489px) {
+    .titulo{
+        font-size: 1.5em;
+        margin-left: -1%;
+    }
+    .subtitulo{
+       margin-left: 9.1%;
+    }
+    .usuario{
+        margin-left: 27%;
+        margin: 0px 20px;
+    }
+    .caixa-atenção{
+        margin: 10px;
+        flex: 1 1 200px;
+    }
+    .imagem{
+        margin-left: 56% ;
+        margin-top: -8%;
         
     }
     
