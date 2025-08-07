@@ -222,37 +222,51 @@ margin-top: 1%;
 }
 .gatilho-2{
     background-color: blueviolet;
-    background-color: rgb(172, 34, 0);
-    display: flex;
-    align-items: center;
+   flex-wrap: wrap;
+   flex: 1 1 200px;
+   display: flex;
+   
+   
+
     
+}
+.gatilho-secundario{
+    flex: 1 1 400px;
+    margin: 40px ;
+ 
+   
 }
 .descrição-secundaria{
     color: rgb(10, 7, 7);
     text-align: center;
-    margin: 20px 10px;
-    width: 100%;
+    margin: 10px 20px;
     font-size: 2em;
+    flex-wrap: wrap;
 
 }
 .paragrafo{
     text-align: center;
-    flex-wrap: wrap;
     width: 100%;
-    margin:30px;
+    margin:60px;
     margin-left: -4%;
     color: white;
     font-size:1.2em;
+    flex: 1 1 766px;
+    flex-wrap: wrap;
 }
 .negrito1{
     color:rgb(22, 252, 2);
 }
+.user{
+    margin-left: 30%;
+}
 .usuario-item2{
    margin-left: 40%;
-   width: 20%;
-   padding: 0.5%;
+   width: 225px;
+   padding: 9px;
    border: 2px solid red;
    border-radius: 10px;
+   margin: 0px 20px 20px;
 }
 .usuario-item2:hover{
     color: red;
@@ -261,9 +275,8 @@ margin-top: 1%;
 .caixa-atenção2{
     width: 200px;
     min-width: 400px;
-  display: flex;
-  background-color: aqua;
- min-width: 100vw;
+    margin: 30px;
+ 
     
 }
 .item-imagem{
@@ -424,9 +437,57 @@ margin-top: 1%;
         margin-left: -3%;
         flex-basis: 200px;
         padding: 10px;
+        margin: 20px 30px 20px 0px;
     }
     
 }
+@media (max-width:935px) {
+    .caixa-atenção2{
+       text-align: center;
+       background-color: aqua;
+       min-width: 100%;
+        margin: 0%;
+        flex-wrap: wrap;
+        
+    
+       
+        }
+    .item-imagem{
+        min-width: 200px;
+       margin: 80px;
+      max-width: 100%;
+    }
+    .user{
+      
+       min-width: 100px;
+       text-align: center;
+     margin: 0%;
+    }
+    @media (max-width:507px) {
+        .caixa-atenção2{
+            margin: 0px 0px 50px;
+            margin: 0%;
+        }
+        .item-imagem{
+            width: 300px;
+            height: 300px;
+            margin-left: 13%;
+            
+        }
+        .
+
+        
+    }
+}
+    @media (max-width:342px) {
+        .item-imagem{
+            display: none;
+            
+        }
+        
+    }
+    
+
 
 
 
