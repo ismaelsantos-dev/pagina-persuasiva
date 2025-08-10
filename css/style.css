@@ -512,7 +512,6 @@ html {
 @media (max-width:935px) {
     .caixa-atenção2 {
         text-align: center;
-        background-color: aqua;
         min-width: 100%;
         margin: 0%;
         flex-wrap: wrap;
@@ -623,4 +622,105 @@ html {
     .paragrafo-final{
         margin-bottom: 13%;
     }
+}
+@media (max-width:530px) {
+    .titulo{
+        margin-bottom: 20%;
+        font-size: 1.6em;
+       text-align: center;
+       margin-left: -2%;
+    }
+    .descrição-secundaria{
+        font-size: 1.6em;
+        margin-bottom: ;
+    }
+    .paragrafo{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .caixa-atenção2{
+        margin-left: 1%;
+        margin-top: -11%;
+    }
+    .item-imagem{
+        width: 300px;
+        height: 300px;
+    }
+    @media (max-width:457px) {
+        .logo-cabeçalho{
+            width: 50px;
+            height: 50px;
+        }
+        .navegação{
+            font-size: 1em;
+        }
+        .titulo{
+            font-size: 1.4em;
+        }
+        .descrição{
+            font-size: 1.1em;
+        }
+        .subtitulo{
+            margin-left: 4%;
+            font-size: 1.3em;
+        }
+        .usuario{
+            margin-left: 5%;
+            margin-top: 1%;
+            margin-bottom: -15%;
+        }
+        .descrição-secundaria{
+            font-size: 1.4em;
+        }
+        .paragrafo{
+            font-size: 1.2em;
+            margin-left: -1%;
+        }    
+}
+.logo-cabeçalho{
+    width: 40px;
+    height: 40px;
+}
+.subtitulo{
+    font-size: 1.2em;
+    margin-left: 1.2%;
+}
+    
+}
+@media (max-width:404px) {
+    .navegação{
+        font-size:17px;
+        
+    }
+    
+}
+@media (max-width:371px) {
+    .navegação{
+       display: flex;
+       flex-wrap: nowrap;
+       justify-content: center;
+       gap:12px;
+
+    }
+    .logo-cabeçalho{
+        margin: 0 5px;
+   
+    }
+    .instrução{
+        font-size:20px;
+    }
+    .gatilho-secundario{
+        font-size: 19px;
+    }
+    .item-imagem{
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+        margin-top: 9%;
+        margin-bottom: 1%;
+    }
+    .container-redes{
+        font-size: 19px;
+    }
+   
 }
