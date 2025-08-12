@@ -6,7 +6,7 @@
 
 body {
     font-size: 1.2rem;
-    background-color: aqua;
+   
 
 
 }
@@ -989,6 +989,66 @@ html {
         margin-top: -20%;
     }
 
+}
+@media (max-width:476px) {
+    .navegação{
+        gap: 9px;
+        font-size: 17px;
+    }
+    .titulo{
+        font-size: 1em;
+        
+    }
+    .descrição{
+        font-size: 18px;
+        margin: 0 20px;
+        margin-top: -18%;
+    }
+    .subtitulo{
+        font-size: 1em;
+        margin-left: 15%;
+    }
+    .instrução{
+        margin-bottom: 10%;
+    }
+    .usuario-item1{
+        margin-left: -45%;
+        margin-top: 1%;
+        
+    }
+    .icones1{
+        font-size: 17px;
+        width: 80%;
+    }
+    .icones2{
+        font-size: 17px;
+        width: 80%;
+    }
+    .icones3{
+        font-size: 17px;
+        width: 80%
+    }
+    .gatilho-secundario{
+        font-size: 15px;
+}
+.descrição-secundaria{
+    font-size: 1.5em;
+}
+.caixa-atenção2{
+    margin-bottom: -9%;
+}
+.item-imagem{
+    margin-top: 5%;
+}
+.titulo-final{
+    font-size: 1.2em;
+}
+.paragrafo-final{
+    font-size: 18px;
+    margin-bottom: 13%;
+}
+
+    
 }
     
 
