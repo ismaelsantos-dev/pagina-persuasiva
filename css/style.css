@@ -875,3 +875,119 @@ html {
         margin-top:5%;
     }
 }
+@media (max-width:373px){
+    .navegação{
+        justify-content: center;
+        gap: 9px;
+    }
+    .titulo{
+        font-size: 1.2em;
+    }
+    .descrição{
+        font-size: 19px;
+        padding:15px;
+        margin-top: -21%;
+    }
+    .subtitulo{
+        font-size: 1.1em;
+    }
+    .usuario{
+      margin-bottom: -24%;
+    }
+      .caixa-icone{
+        font-size: 19px;
+        
+     } 
+    .icones1{
+        width: 90%;
+    }
+    .icones2{
+        width: 90%;
+    }
+    .icones3{
+        width: 90%;
+    }
+    .descrição-secundaria{
+        font-size: 1.3em;
+        margin-top: -4%;
+    }
+    .paragrafo{
+        font-size: 19px;
+    }
+    .caixa-atenção2{
+        margin-bottom: -10%;
+    }
+    .item-imagem{
+        width:70%;
+        height: 77%;
+        margin-top:3%;
+    
+        
+    }
+    .titulo-final{
+        font-size: 1.2em;
+    }
+    .paragrafo-final{
+        font-size: 19px;
+        padding: 2px;
+        margin: 0 10px;
+        margin-bottom: 13%;
+    }
+    
+}
+@media (max-width:355px) {
+    .subtitulo{
+        margin-left: 3%;
+    }
+    
+}
+@media (max-width:336px) {
+    .instrução{
+        margin-bottom: 30%;
+    }
+
+}
+@media (max-width:309px) {
+    .titulo{
+        font-size: 1.1em;
+        margin: 10px 0px ;
+        margin-bottom: 20%;
+    }
+    .subtitulo{
+        font-size: 1em;
+    }
+    .gatilho-secundario{
+        margin: auto;
+        margin-bottom:3%;
+        padding: 20px;
+    }
+
+
+}
+@media (max-width:282px) {
+    .navegação{
+        justify-content: center;
+        gap: 5px;
+    }
+    .titulo{
+        font-size: 1em;
+    }
+    .subtitulo{
+        font-size: 19px;
+    }
+    .gatilho-secundario{
+        margin-left: -7%;
+    }
+    .descrição-secundaria{
+    font-size: 1em;
+   
+    
+    }
+    .descrição{
+        margin:0 1px 20px;
+        margin-top: -20%;
+    }
+
+}
+    
+
